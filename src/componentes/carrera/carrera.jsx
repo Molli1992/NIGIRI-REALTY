@@ -3,6 +3,7 @@ import "./carrera.css";
 import { useNavigate } from "react-router-dom";
 
 function Carrera() {
+  window.scroll(0, 0);
   const navigate = useNavigate();
 
   const onClickContacto = () => {

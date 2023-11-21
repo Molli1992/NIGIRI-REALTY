@@ -3,6 +3,7 @@ import "./nosotros.css";
 import { Link, useNavigate } from "react-router-dom";
 
 function Nosotros() {
+  window.scroll(0, 0);
   const navigate = useNavigate();
 
   const onClickContacto = () => {
