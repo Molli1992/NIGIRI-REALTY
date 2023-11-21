@@ -47,7 +47,7 @@ function Nosotros() {
               Institucionales y Organismos Públicos.
             </p>
 
-            <Link to="/contact" className="btn-text">
+            <Link to="/contacto" className="btn-text">
               Contactanos &rarr;
             </Link>
           </div>
