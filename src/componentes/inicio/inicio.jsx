@@ -1,14 +1,53 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./inicio.css";
 import Contacto from "../contacto/contacto";
+import Swal from "sweetalert2";
 
 function Inicio() {
-  window.scroll(0, 0);
+  const [stateScroll, setStateScroll] = useState(true);
+
+  if (stateScroll === true) {
+    window.scroll(0, 0);
+    setStateScroll(false);
+  }
   const navigate = useNavigate();
+
+  const [state, setState] = useState({
+    email: "",
+  });
 
   const onClickNosotros = () => {
     navigate("/nosotros");
+  };
+
+  const onChange = (e) => {
+    setState({
+      ...state,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const onSubmit = () => {
+    if (state.email === "") {
+      Swal.fire({
+        title: "Error!",
+        text: "Completar todos los campos",
+        icon: "error",
+        confirmButtonText: "Ok",
+      });
+    } else {
+      Swal.fire({
+        title: "Successce!",
+        text: "Te has suscripto correctamente",
+        icon: "success",
+        confirmButtonText: "Ok",
+      }).then(() => {
+        setState({
+          email: "",
+        });
+      });
+    }
   };
   return (
     <div className="body-inicio">
@@ -143,8 +182,13 @@ function Inicio() {
           </p>
 
           <div className="container-input">
-            <input placeholder="Email" />
-            <button>Suscribirme</button>
+            <input
+              name="email"
+              placeholder="Email"
+              value={state.email}
+              onChange={onChange}
+            />
+            <button onClick={onSubmit}>Suscribirme</button>
           </div>
         </div>
       </div>

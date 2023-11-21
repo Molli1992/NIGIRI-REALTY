@@ -21,6 +21,8 @@ function Contacto() {
       ...state,
       [e.target.name]: e.target.value,
     });
+
+    console.log(state)
   };
 
   const onSubmit = () => {
