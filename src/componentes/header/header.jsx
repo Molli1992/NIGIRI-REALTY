@@ -35,8 +35,8 @@ function Header() {
           Nosotros
         </Link>
 
-        <Link className="link-header" to={"/servicios"}>
-          Servicios
+        <Link className="link-header" to={"/carrera"}>
+          Carrera
         </Link>
 
         <Link className="link-header" to={"/contacto"}>
@@ -72,7 +72,11 @@ function Header() {
         )}
       </div>
 
-      <div id="responsive-div-header" className="responsive-header" onClick={onClickOpenClose}>
+      <div
+        id="responsive-div-header"
+        className="responsive-header"
+        onClick={onClickOpenClose}
+      >
         <Link className="link-header-responsive" to={"/"}>
           Inicio
         </Link>
@@ -81,8 +85,8 @@ function Header() {
           Nosotros
         </Link>
 
-        <Link className="link-header-responsive" to={"/servicios"}>
-          Servicios
+        <Link className="link-header-responsive" to={"/carrera"}>
+          Carrera
         </Link>
 
         <Link className="link-header-responsive" to={"/contacto"}>

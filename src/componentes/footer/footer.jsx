@@ -24,8 +24,8 @@ function Footer() {
             Nosotros
           </Link>
 
-          <Link className="link-footer" to={"/servicios"}>
-            Servicios
+          <Link className="link-footer" to={"/carrera"}>
+            Carrera
           </Link>
 
           <Link className="link-footer" to={"/contacto"}>

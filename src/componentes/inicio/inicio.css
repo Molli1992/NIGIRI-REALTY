@@ -1,6 +1,6 @@
-.body-inicio{
-    width: 100%;
-    background-color: rgb(74, 234, 220);
+.body-inicio {
+  width: 100%;
+  background-color: rgb(74, 234, 220);
 }
 
 /* ------------------------------------ Header-----------------------------------------------------------*/
@@ -76,6 +76,168 @@
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+/* --------------------------------- Container 1 ------------------------------------------------------*/
+
+.container-1-inicio {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(74, 234, 220);
+  text-align: center;
+  padding: 75px 10px;
+}
+
+.container-1-inicio h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.container-1-inicio p {
+  font-size: 18px;
+}
+
+.contaner-inicio-2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.container-inicio-3 {
+  width: 45%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0px;
+  margin-bottom: 55px;
+}
+
+.container-inicio-3 h3 {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.container-inicio-3 p {
+  font-size: 16px;
+}
+
+.container-inicio-3 img {
+  width: 100%;
+  height: 100%;
+}
+
+/* --------------------------------- Container 4 ------------------------------------------------------*/
+
+.container-inicio-4 {
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 50px 15px;
+  background-color: #333333;
+  color: #f2f2f2;
+  position: relative;
+  min-height: 950px;
+}
+
+.container-inicio-4 h1 {
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 35px;
+}
+
+.container-inicio-4 p {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.container-inicio-4 button {
+  font-size: 14px;
+  background-color: #f2f2f2;
+  color: #1d1e40;
+  border: none;
+  width: 300px;
+  height: 50px;
+  font-weight: bold;
+}
+
+.container-inicio-4 button:hover {
+  background-color: gray;
+  color: #f2f2f2;
+}
+
+.container-inicio-4 img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 350px;
+  height: 500px;
+  width: 90%;
+}
+
+/* --------------------------------- Container-inicio-5 ------------------------------------------------------*/
+
+.container-inicio-5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 100%;
+}
+
+.card-container-inicio{
+  height: 300px;
+  width: 600px;
+  background-color: #f2f2f2;
+  border-left: 5px solid #333333;
+  padding: 25px 0px;
+  padding-left: 50px;
+}
+
+.card-container-inicio h1{
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.card-container-inicio p{
+  font-size: 16px;
+  margin-bottom: 45px;
+}
+
+.container-input{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.container-input input{
+  width: 65%;
+  background-color: aliceblue;
+  border: none;
+  border-bottom: 2px solid #333333;
+  height: 40px;
+  padding-left: 20px;
+}
+
+.container-input input:focus{
+  outline: none;
+}
+
+.container-input button{
+  border: none;
+  background-color: #333333;
+  color: #f2f2f2;
+  width: 25%;
+  height: 40px;
+}
+
+.container-input button:hover{
+  background-color: gray;
+  color: #f2f2f2;
+}
+
 /* --------------------------------- Animation ------------------------------------------------------*/
 
 @keyframes moveInLeft {
@@ -116,6 +278,24 @@
 
 /* --------------------------------- @media Header------------------------------------------------------*/
 
+@media (max-width: 750px) {
+  .contaner-inicio-2 {
+    display: grid;
+    gap: 0px;
+  }
+
+  .container-inicio-3 {
+    width: 100%;
+    text-align: center;
+    padding: 0px 15px;
+  }
+
+  .container-inicio-3 img {
+    width: 90%;
+    height: 90%;
+  }
+}
+
 @media (max-width: 650px) {
   .heading-primary-main {
     font-size: 28px;
@@ -125,5 +305,60 @@
   .heading-primary-sub {
     font-size: 16px;
     letter-spacing: 5px;
+  }
+
+  .container-inicio-4 img {
+    top: 400px;
+    height: 500px;
+    width: 90%;
+  }
+
+  .card-container-inicio{
+    width: 95%;
+    padding-left: 20px;
+    padding-right: 10px;
+    height: 350px;
+  }
+
+  .container-input{
+    display: grid;
+  }
+  
+  .container-input input{
+    width: 95%;
+    margin-bottom: 5px;
+  }
+
+  
+  .container-input button{
+    width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container-inicio-4 {
+    min-height: 850px;
+  }
+
+  .container-inicio-4 img {
+    top: 500px;
+    height: 300px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 340px) {
+  .container-inicio-4 {
+    min-height: 900px;
+  }
+
+  .container-inicio-4 button {
+    width: 100%;
+  }
+
+  .container-inicio-4 img {
+    top: 550px;
+    height: 300px;
+    width: 90%;
   }
 }

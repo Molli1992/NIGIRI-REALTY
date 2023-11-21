@@ -1,16 +1,20 @@
 import React, { useState } from "react";
 import "./contacto.css";
-import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 
 function Contacto() {
-  const history = useNavigate();
   const [state, setState] = useState({
     nombre: "",
     mail: "",
     servicio: "",
     mensaje: "",
   });
+  const [stateScroll , setStateScroll] = useState(true)
+
+  if(stateScroll === true){
+    window.scroll(0, 0);
+    setStateScroll(false)
+  }
 
   const onChange = (e) => {
     setState({
@@ -39,7 +43,12 @@ function Contacto() {
         icon: "success",
         confirmButtonText: "Ok",
       }).then(() => {
-        history("/");
+        setState({
+          nombre: "",
+          mail: "",
+          servicio: "",
+          mensaje: "",
+        });
       });
     }
   };

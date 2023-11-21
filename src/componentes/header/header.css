@@ -61,6 +61,7 @@
   background-color: #1d1e40;
   width: 100%;
   min-height: 200px;
+  z-index: 999;
 }
 
 .link-header-responsive {
