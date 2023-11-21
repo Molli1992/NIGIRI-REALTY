@@ -20,12 +20,12 @@
 .contact-h2 {
     font-size: 36px;
     font-weight: 500;
-    color: black;
+    color: #333333;
 }
 
 .contact-p {
     font-weight: 300;
-    color: black;
+    color: #333333;
 }
 
 .contact-container {
@@ -54,21 +54,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: #333333;
 }
 
 .contact-text {
     display: flex;
     margin-left: 20px;
     font-size: 16px;
-    color: black;
+    color: #333333;
     flex-direction: column;
     font-weight: 300;
 }
 
 .contact-h3 {
     font-weight: bold;
-    color: rgb(116, 4, 4);
+    color: #333333;
 }
 
 .contact-form {
@@ -95,7 +95,7 @@
     font-size: 16px;
     margin: 10px 0px;
     border: none;
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #333333;
     outline: none;
     resize: none;
 }
@@ -106,7 +106,7 @@
     font-size: 16px;
     margin: 10px 0px;
     border: none;
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #333333;
     outline: none;
     resize: none;
 }
@@ -133,7 +133,7 @@
 
 .btn-contacto {
     width: 100%;
-    background: black;
+    background: #333333;
     color: #fff;
     border: none;
     cursor: pointer;

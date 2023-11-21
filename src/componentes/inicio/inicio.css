@@ -9,10 +9,10 @@
   height: 95vh;
   background-image: linear-gradient(
       to right bottom,
-      rgba(74, 234, 220, 0.5),
-      rgba(74, 234, 220, 0.2)
+      rgba(74, 234, 220, 0.3),
+      rgba(74, 234, 220, 0.1)
     ),
-    url("https://www.buenosairesfreewalks.com/spanish/wp-content/uploads/2016/09/buenos-aires-1000x503-1000x503.jpg");
+    url("https://mercado.com.ar/wp/wp-content/uploads/2022/09/caba.png");
   background-size: cover;
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
@@ -29,7 +29,7 @@
 }
 
 .heading-primary {
-  color: black;
+  color: #333333;
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 25px;
@@ -49,15 +49,15 @@
 .heading-primary-sub {
   display: block;
   font-size: 20px;
-  font-weight: 550;
+  font-weight: bold;
   letter-spacing: 10px;
   animation: moveInRight 1s ease-out;
 }
 
 .btn:link,
 .btn:visited {
-  background-color: black;
-  color: #fff;
+  background-color: #333333;
+  color: #f2f2f2;
   text-transform: uppercase;
   text-decoration: none;
   padding: 15px 40px;
