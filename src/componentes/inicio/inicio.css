@@ -134,11 +134,9 @@
   display: block;
   text-align: center;
   width: 100%;
-  padding: 50px 15px;
+  padding: 75px 50px;
   background-color: #333333;
   color: #f2f2f2;
-  position: relative;
-  min-height: 950px;
 }
 
 .container-inicio-4 h1 {
@@ -160,6 +158,7 @@
   width: 300px;
   height: 50px;
   font-weight: bold;
+  margin-bottom: 50px;
 }
 
 .container-inicio-4 button:hover {
@@ -168,17 +167,13 @@
 }
 
 .container-inicio-4 img {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 350px;
+  width: 100%;
   height: 500px;
-  width: 90%;
 }
 
 /* --------------------------------- Container-inicio-5 ------------------------------------------------------*/
 
-.container-inicio-5{
+.container-inicio-5 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -186,7 +181,7 @@
   width: 100%;
 }
 
-.card-container-inicio{
+.card-container-inicio {
   height: 300px;
   width: 600px;
   background-color: #f2f2f2;
@@ -195,24 +190,24 @@
   padding-left: 50px;
 }
 
-.card-container-inicio h1{
+.card-container-inicio h1 {
   font-weight: bold;
   font-size: 30px;
   margin-bottom: 25px;
 }
 
-.card-container-inicio p{
+.card-container-inicio p {
   font-size: 16px;
   margin-bottom: 45px;
 }
 
-.container-input{
+.container-input {
   width: 100%;
   display: flex;
   align-items: center;
 }
 
-.container-input input{
+.container-input input {
   width: 65%;
   background-color: aliceblue;
   border: none;
@@ -221,11 +216,11 @@
   padding-left: 20px;
 }
 
-.container-input input:focus{
+.container-input input:focus {
   outline: none;
 }
 
-.container-input button{
+.container-input button {
   border: none;
   background-color: #333333;
   color: #f2f2f2;
@@ -233,7 +228,7 @@
   height: 40px;
 }
 
-.container-input button:hover{
+.container-input button:hover {
   background-color: gray;
   color: #f2f2f2;
 }
@@ -307,58 +302,37 @@
     letter-spacing: 5px;
   }
 
-  .container-inicio-4 img {
-    top: 400px;
-    height: 500px;
-    width: 90%;
-  }
-
-  .card-container-inicio{
+  .card-container-inicio {
     width: 95%;
     padding-left: 20px;
     padding-right: 10px;
     height: 350px;
   }
 
-  .container-input{
+  .container-input {
     display: grid;
   }
-  
-  .container-input input{
+
+  .container-input input {
     width: 95%;
     margin-bottom: 5px;
   }
 
-  
-  .container-input button{
+  .container-input button {
     width: 150px;
-  }
-}
-
-@media (max-width: 480px) {
-  .container-inicio-4 {
-    min-height: 850px;
   }
 
   .container-inicio-4 img {
-    top: 500px;
     height: 300px;
-    width: 90%;
-  }
-}
-
-@media (max-width: 340px) {
-  .container-inicio-4 {
-    min-height: 900px;
   }
 
   .container-inicio-4 button {
     width: 100%;
   }
+}
 
+@media (max-width: 450px) {
   .container-inicio-4 img {
-    top: 550px;
-    height: 300px;
-    width: 90%;
+    height: 200px;
   }
 }
