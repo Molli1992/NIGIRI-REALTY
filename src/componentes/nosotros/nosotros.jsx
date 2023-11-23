@@ -107,7 +107,7 @@ function Nosotros() {
 
       <div
         className="container-nosotros-2"
-        style={{ backgroundColor: "rgb(74, 234, 220)" }}
+        style={{ backgroundColor: "lightgray" }}
       >
         <div className="container-nosotros-3" style={{ color: "#333333" }}>
           <h1>Strategic Alliances</h1>
