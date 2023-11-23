@@ -7,67 +7,67 @@ function Nosotros() {
   const navigate = useNavigate();
 
   const onClickContacto = () => {
-    navigate("/contacto")
+    navigate("/contacto");
   };
   return (
     <div className="body-nosotros">
       <div className="container-nosotros-1">
         <div className="card-nosotros-1">
-          <h1>Sobre nosotros</h1>
+          <h1>About us</h1>
           <p>
-            Con años de experiencia en el mercado de capitales argentino,
-            nuestro equipo de profesionales altamente capacitados está dedicado
-            a ayudar a nuestros clientes a alcanzar sus metas financieras.
+            With years of experience in the real estate market, our team of
+            highly trained professionals is dedicated to helping our clients
+            achieve their financial goals.
           </p>
         </div>
       </div>
 
       <section className="section-about">
         <div className="u-center-text u-margin-bottom-80">
-          <h2 className="heading-secondary">Nuestra historia</h2>
+          <h2 className="heading-secondary">Our history</h2>
         </div>
 
         <div className="row">
           <div className="col-1-of-2">
-            <h3 className="heading-tertiary">QUIENES SOMOS</h3>
+            <h3 className="heading-tertiary">ABOUT US</h3>
 
             <p className="paragraph">
-              Somos el fruto de la asociación de un grupo de especialistas con
-              probada capacidad, trayectoria y experiencia en el mercado de
-              capitales local e internacional.
+              We are the result of the association of a group of specialists
+              with proven capacity, track record and experience in the local and
+              international real estate market.
             </p>
 
-            <h3 className="heading-tertiary">Nuestra Forma de trabajo</h3>
+            <h3 className="heading-tertiary">Our way of working</h3>
 
             <p className="paragraph">
-              Con un estricto foco en brindar un servicio integral, hemos
-              consolidado un equipo de amplia experiencia en todos los campos de
-              las finanzas que nos permite asesorar a una base de clientes que
-              comprende individuos, PYMES, Corporaciones, Inversores
-              Institucionales y Organismos Públicos.
+              With a strict focus on providing a comprehensive service, we have
+              consolidated a team with extensive experience in all real estate
+              fields that allows us to advise a client base that includes
+              individuals, SMEs, Corporations, Investors Institutional and
+              Public Organizations.
             </p>
 
             <Link to="/contacto" className="btn-text">
-              Contactanos &rarr;
+              Contact us &rarr;
             </Link>
           </div>
 
           <div className="col-2-of-2">
             <div className="composition">
               <img
-                src="https://negociosdigitalesmovistar.com/wp-content/uploads/2015/10/ico-destinonegocio-invertir-en-empresas-istock-getty-images-1030x686-1.jpg"
+                src="https://media.licdn.com/dms/image/C4E12AQH3npE_NQOErg/article-cover_image-shrink_600_2000/0/1630590364464?e=2147483647&v=beta&t=Q8wDDfimt2MlAOPBxIZ-RD3Dyt7EhmV4Zyj1SeSKWmw"
                 alt="Error en la carga de la imagen"
                 className="composition_photo composition_photo--p1"
               />
 
               <img
-                src="https://www.economiasimple.net/wp-content/uploads/2011/09/invertir-empresas-1200x900.jpg"
+                src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2020/07/Real_estate_agent.jpg"
                 alt="Error en la carga de la imagen"
                 className="composition_photo composition_photo--p2"
               />
 
               <img
-                src="https://www.cronista.com/files/image/475/475486/630929a5a5014.jpg"
+                src="https://www.spiffyspools.com/wp-content/uploads/2023/05/istockphoto-1409298953-170667a.jpg"
                 alt="Error en la carga de la imagen"
                 className="composition_photo composition_photo--p3"
               />
@@ -85,23 +85,22 @@ function Nosotros() {
         </div>
 
         <div className="container-nosotros-3">
-          <h1>¿Por qué elegirnos?</h1>
+          <h1>¿Why choose us?</h1>
 
           <p>
-            Contamos con un equipo multidisciplinario de especialistas en cada
-            una de nuestras áreas estratégicas, con gran reconocimiento y
-            amplias redes de contactos. Esto nos permite brindar numerosas
-            soluciones según los distintos perfiles de cliente en cada momento
-            del tiempo.
+            We have a multidisciplinary team of specialists in each one of our
+            strategic areas, with great recognition and extensive networks of
+            contacts. This allows us to provide numerous solutions according to
+            the different customer profiles at all times weather.
           </p>
 
           <p>
-            Existen múltiples instrumentos bursátiles y extrabursátiles que
-            pueden ser usados tanto por Individuos, Empresas de todo tamaño y
-            rubro, Inversores Institucionales y hasta Entidades Públicas. Ya sea
-            para Financiación, para Inversión o para Gestión, nuestro equipo
-            realiza un profundo análisis y asesoramiento personalizado sobre los
-            mejores instrumentos para cubrir la necesidad de cada cliente.
+            There are multiple stock market and over-the-counter instruments
+            that They can be used by individuals, companies of all sizes and
+            sector, Institutional Investors and even Public Entities. Whether
+            it's for Financing, for Investment or for Management, our team
+            carries out a deep analysis and personalized advice on the best
+            instruments to meet the needs of each client.
           </p>
         </div>
       </div>
@@ -111,15 +110,15 @@ function Nosotros() {
         style={{ backgroundColor: "rgb(74, 234, 220)" }}
       >
         <div className="container-nosotros-3" style={{ color: "#333333" }}>
-          <h1>Alianzas estratégicas</h1>
+          <h1>Strategic Alliances</h1>
 
           <p>
-            Disponemos de alianzas estratégicas con instituciones tanto locales
-            como internacionales. Estas comprenden servicios de research, de
-            acceso a plataformas internacionales de brokerage, que nos permiten
-            acceder en tiempo real a lo que sucede en los principales mercados
-            financieros del mundo y nos asisten en nuestro objetivo primario de
-            brindar a nuestros clientes las mejores soluciones financieras.
+            We have strategic alliances with both local institutions as
+            international. These include research services, access to
+            international real estate platforms, which allow us access in real
+            time what is happening in the main markets real estate companies in
+            the world and assist us in our primary objective of provide our
+            clients with the best financial solutions.
           </p>
         </div>
 
@@ -133,16 +132,17 @@ function Nosotros() {
 
       <div className="container-nosotros-2">
         <div className="container-nosotros-3">
-          <h1>Comunicate con nosotros</h1>
+          <h1>Contact us</h1>
 
           <p>
-            En Taurus Capital ofrecemos servicios de calidad y satisfacemos las
-            necesidades de nuestros clientes. No dude en ponerse en contacto con
-            nosotros a través de nuestro formulario de contacto. Estamos a su
-            disposición para ofrecerle nuestra experiencia y conocimientos.
+            At Nigiri we offer quality services and satisfy the needs of our
+            clients. Feel free to contact us through our contact form. We are at
+            your willingness to offer you our experience and knowledge.
           </p>
 
-          <button className="btn-contacto-nosotros" onClick={onClickContacto}>Contactanos</button>
+          <button className="btn-contacto-nosotros" onClick={onClickContacto}>
+            Contact us
+          </button>
         </div>
       </div>
     </div>

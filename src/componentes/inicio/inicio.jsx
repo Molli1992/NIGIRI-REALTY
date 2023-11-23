@@ -54,41 +54,43 @@ function Inicio() {
       <header className="header">
         <div className="text-box">
           <h1 className="heading-primary">
-            <span className="heading-primary-main">Taurus Capital</span>
+            <span className="heading-primary-main">Nigiri Realt</span>
             <span className="heading-primary-sub">
-              Te acompañamos con tus Inversiones
+              Experts in the real estate market
             </span>
           </h1>
 
           <Link to="/contacto" className="btn">
-            Contactanos
+            Contact us
           </Link>
         </div>
       </header>
 
       <div className="container-1-inicio">
-        <h1>Nuestros Servicios</h1>
+        <h1>Our Services</h1>
 
         <p>
-          Entendemos que cada inversor tiene necesidades y objetivos únicos. Por
-          eso, ofrecemos una amplia variedad de servicios financieros
-          personalizados para que puedan alcanzar sus metas.
+          We offer an unparalleled experience in buying and selling properties.
+          Our team of highly trained professionals combines deep market
+          knowledge with exclusivity and prestige.
         </p>
       </div>
 
       <div className="contaner-inicio-2">
         <div className="container-inicio-3">
-          <h3>Investment</h3>
-          <p>Brindamos asesoramiento personalizado de banca privada.</p>
+          <h3>Approach</h3>
           <p>
-            Somos referentes del mercado de renta fija local, especialistas en
-            seleccionar fondos comunes de inversion.
+            Nigiri, a modern and committed company. Its focus on innovation is
+            one of the fundamental pillars on which it is based. As Real Estate
+            becomes more complex, having experts to competently advise is
+            crucial. Address this challenge seriously, providing judgment and
+            guarantee in decision making
           </p>
         </div>
 
         <div className="container-inicio-3">
           <img
-            src="https://paytmblogcdn.paytm.com/wp-content/uploads/2023/09/Blog_Paytm_What-Is-a-Long-Term-Investment-and-What-Are-Its-Benefits.jpg"
+            src="https://www.dummies.com/wp-content/uploads/international-real-estate-valuation.jpg"
             alt="Error en la carga de la imagen"
           />
         </div>
@@ -97,36 +99,37 @@ function Inicio() {
       <div className="contaner-inicio-2">
         <div className="container-inicio-3">
           <img
-            src="https://kdg.co.in/images/newimg/corporate_main.jpg"
+            src="https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/Sales_Blog/real-estate-business-compressor.jpg?width=595&height=400&name=real-estate-business-compressor.jpg"
             alt="Error en la carga de la imagen"
           />
         </div>
 
         <div className="container-inicio-3">
-          <h3>Corporate finance</h3>
+          <h3>Real Estate</h3>
           <p>
-            Somos referentes del mercado local en la estructuracion de
-            financiamiento de corto, mediano y largo plazo para cada industria y
-            tamaño de empresa.
+            Nigiri encompasses a variety of assets that have high economic and
+            social value. These assets go beyond homes and buildings; They also
+            include land, natural resources, and other improvements found on the
+            property. In other words, it refers to all activities related to the
+            purchase and sale of real estate assets.
           </p>
         </div>
       </div>
 
       <div className="contaner-inicio-2">
         <div className="container-inicio-3">
-          <h3>Financial advisory</h3>
+          <h3>Investments and development</h3>
           <p>
-            Aplicando nuestro distintivo Modelo de Atención nuestro equipo
-            formado por mas de 50 profesionales comerciales, se enfoca en
-            asesorar con eficiencia a nuestros clientes para el diseño de sus
-            portfolios de inversión, financiamiento a medida, soluciones
-            operativas
+            This category involves investment in real estate projects and
+            property development. Investors look for opportunities to acquire,
+            improve and sell properties, or rent them out for a passive income
+            stream.
           </p>
         </div>
 
         <div className="container-inicio-3">
           <img
-            src="https://www.ilf.com/wp-content/uploads/2016/09/pic_finanzierungsberatung_header-776x354.jpg"
+            src="https://paytolet.com/storage/news/074-property-developers-in-nigeria.jpg"
             alt="Error en la carga de la imagen"
           />
         </div>
@@ -135,7 +138,7 @@ function Inicio() {
       <div className="contaner-inicio-2">
         <div className="container-inicio-3">
           <img
-            src="https://media.bizj.us/view/img/10784953/howtofinances*1200xx4812-2717-0-0.jpg"
+            src="https://learn.roofstock.com/hs-fs/hubfs/iStock-1186618062%20(1).jpg?width=2121&name=iStock-1186618062%20(1).jpg"
             alt="Error en la carga de la imagen"
           />
         </div>
@@ -143,27 +146,25 @@ function Inicio() {
         <div className="container-inicio-3">
           <h3>Strategies</h3>
           <p>
-            Un conocimiento del total de las herramientas financieras juntos con
-            los vehículos necesarios nos permite en la práctica obtener el
-            alcance absoluto en materia de soluciones financieras a media las
-            cuales trascienden lo estrictamente bursátil
+            A total knowledge of the necessary tools and vehicles allows us in
+            practice to obtain the absolute scope in terms of efficient medium
+            solutions which transcend the strictly stock market.
           </p>
         </div>
       </div>
 
       <div className="container-inicio-4">
-        <h1>Nosotros</h1>
+        <h1>Us</h1>
 
         <p>
-          Somos una empresa comprometida, dedicada a conocer y entender las
-          necesidades de nuestros clientes con el objetivo de crear valor, a
-          través de relaciones basadas en la confianza y respeto mutuo, con
-          profesionalismo y excelencia en calidad de servicio. Hoy ofrecemos una
-          diversidad de soluciones financieras para individuos, empresas e
-          instituciones.
+          We are a committed company, dedicated to knowing and understanding the
+          needs of our clients with the aim of creating value, to through
+          relationships based on trust and mutual respect, with professionalism
+          and excellence in quality of service. Today we offer a diversity of
+          real estate solutions for individuals, companies and institutions.
         </p>
 
-        <button onClick={onClickNosotros}>Ver Mas</button>
+        <button onClick={onClickNosotros}>See More</button>
 
         <img
           src="https://tauruscapital.com.ar/wp-content/uploads/2023/05/Home-Nosotros-Img.webp"
@@ -173,12 +174,11 @@ function Inicio() {
 
       <div className="container-inicio-5">
         <div className="card-container-inicio">
-          <h1>Informe Semanal</h1>
+          <h1>Weekly report</h1>
 
           <p>
-            Suscribete y recibi actualizaciones diarias sobre el mercado de
-            capitales, análisis exclusivos y consejos financieros de nuestros
-            expertos.
+            Subscribe and receive daily updates about the market real estate,
+            exclusive analysis and advice from our experts.
           </p>
 
           <div className="container-input">
@@ -188,7 +188,7 @@ function Inicio() {
               value={state.email}
               onChange={onChange}
             />
-            <button onClick={onSubmit}>Suscribirme</button>
+            <button onClick={onSubmit}>Subscribe</button>
           </div>
         </div>
       </div>

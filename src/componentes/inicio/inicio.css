@@ -1,6 +1,6 @@
 .body-inicio {
   width: 100%;
-  background-color: rgb(74, 234, 220);
+  background-color: lightgray;
 }
 
 /* ------------------------------------ Header-----------------------------------------------------------*/
@@ -12,9 +12,9 @@
       rgba(74, 234, 220, 0.3),
       rgba(74, 234, 220, 0.1)
     ),
-    url("https://mercado.com.ar/wp/wp-content/uploads/2022/09/caba.png");
+    url("https://assets.weforum.org/project/image/fynzBuaXI5Jmvo_QtUC4mymCOY6zOBwOZ63m4_55Sik.jpeg");
   background-size: cover;
-  background-position: top;
+  background-position: bottom;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   position: relative;
 }
@@ -83,7 +83,6 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: rgb(74, 234, 220);
   text-align: center;
   padding: 75px 10px;
 }
@@ -184,7 +183,7 @@
 .card-container-inicio {
   height: 300px;
   width: 600px;
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   border-left: 5px solid #333333;
   padding: 25px 0px;
   padding-left: 50px;

@@ -9,11 +9,11 @@ function Contacto() {
     servicio: "",
     mensaje: "",
   });
-  const [stateScroll , setStateScroll] = useState(true)
+  const [stateScroll, setStateScroll] = useState(true);
 
-  if(stateScroll === true){
+  if (stateScroll === true) {
     window.scroll(0, 0);
-    setStateScroll(false)
+    setStateScroll(false);
   }
 
   const onChange = (e) => {
@@ -22,7 +22,7 @@ function Contacto() {
       [e.target.name]: e.target.value,
     });
 
-    console.log(state)
+    console.log(state);
   };
 
   const onSubmit = () => {
@@ -37,7 +37,7 @@ function Contacto() {
         text: "Completar todos los campos",
         icon: "error",
         confirmButtonText: "Ok",
-      })
+      });
     } else {
       Swal.fire({
         title: "Successce!",
@@ -60,9 +60,9 @@ function Contacto() {
       <div className="body-contact">
         <section className="contact">
           <div className="contact-content">
-            <h2 className="contact-h2">¡Contáctanos ahora!</h2>
+            <h2 className="contact-h2">¡Contact us now!</h2>
             <p className="contact-p">
-              Nuestro equipo de expertos está listo para ayudarte.
+              Our team of experts is ready to help you.
             </p>
           </div>
 
@@ -73,7 +73,7 @@ function Contacto() {
                   <ion-icon name="location-outline"></ion-icon>
                 </div>
                 <div className="contact-text">
-                  <h3 className="contact-h3">Direccion</h3>
+                  <h3 className="contact-h3">Address</h3>
                   <p className="contact-p-2">
                     Calle Siempre Viva 292 PB H - San Isidro
                   </p>
@@ -85,7 +85,7 @@ function Contacto() {
                   <ion-icon name="call-outline"></ion-icon>
                 </div>
                 <div className="contact-text">
-                  <h3 className="contact-h3">Telefono</h3>
+                  <h3 className="contact-h3">Phone</h3>
                   <p className="contact-p-2">115-596-7462</p>
                 </div>
               </div>
@@ -103,7 +103,7 @@ function Contacto() {
 
             <div className="contact-form">
               <form>
-                <h2 className="contact-form-h2">Enviar Mensaje</h2>
+                <h2 className="contact-form-h2">Send Message</h2>
               </form>
 
               <div>
@@ -116,7 +116,7 @@ function Contacto() {
                     onChange={onChange}
                     value={state.nombre}
                   />
-                  <span>Nombre</span>
+                  <span>Name</span>
                 </div>
 
                 <div className="contact-input-box">
@@ -140,7 +140,7 @@ function Contacto() {
                     onChange={onChange}
                     value={state.servicio}
                   />
-                  <span>Servicio</span>
+                  <span>Service</span>
                 </div>
 
                 <div className="contact-input-box">
@@ -151,14 +151,14 @@ function Contacto() {
                     onChange={onChange}
                     value={state.mensaje}
                   ></textarea>
-                  <span>Escribi tu mensaje...</span>
+                  <span>Write your message...</span>
                 </div>
 
                 <div className="contact-input-box">
                   <input
                     type="submit"
                     name=""
-                    value="Enviar"
+                    value="Send"
                     className="btn-contacto"
                     onClick={onSubmit}
                   />

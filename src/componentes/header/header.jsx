@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Logo from "../../imagenes/NIGIRI-LOGO-removebg-preview.png";
 import "./header.css";
 
 function Header() {
@@ -20,27 +21,24 @@ function Header() {
   return (
     <div className="body-header">
       <div className="contaner-header-1">
-        <img
-          src="https://tauruscapital.com.ar/wp-content/uploads/2023/05/Taurus_Logo_Color_Azul.png"
-          alt="logo-empresa"
-        />
+        <img src={Logo} alt="logo-empresa" />
       </div>
 
       <div className="contaner-header-2">
         <Link className="link-header" to={"/"}>
-          Inicio
+          Home
         </Link>
 
         <Link className="link-header" to={"/nosotros"}>
-          Nosotros
+          Us
         </Link>
 
         <Link className="link-header" to={"/carrera"}>
-          Carrera
+          Career
         </Link>
 
         <Link className="link-header" to={"/contacto"}>
-          Contacto
+          Contact
         </Link>
       </div>
 
@@ -48,9 +46,9 @@ function Header() {
         {openClose === false ? (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="25"
-            height="25"
-            fill="currentColor"
+            width="30"
+            height="30"
+            fill="#f2f2f2"
             class="bi bi-filter"
             viewBox="0 0 16 16"
             onClick={onClickOpenClose}
@@ -60,9 +58,9 @@ function Header() {
         ) : (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            fill="currentColor"
+            width="25"
+            height="25"
+            fill="#f2f2f2"
             class="bi bi-x-lg"
             viewBox="0 0 16 16"
             onClick={onClickOpenClose}
@@ -78,19 +76,19 @@ function Header() {
         onClick={onClickOpenClose}
       >
         <Link className="link-header-responsive" to={"/"}>
-          Inicio
+          Home
         </Link>
 
         <Link className="link-header-responsive" to={"/nosotros"}>
-          Nosotros
+          Us
         </Link>
 
         <Link className="link-header-responsive" to={"/carrera"}>
-          Carrera
+          Career
         </Link>
 
         <Link className="link-header-responsive" to={"/contacto"}>
-          Contacto
+          Contact
         </Link>
       </div>
     </div>

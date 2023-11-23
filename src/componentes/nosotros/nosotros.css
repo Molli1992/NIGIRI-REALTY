@@ -2,7 +2,7 @@
   width: 100%;
   display: block;
   padding-bottom: 50px;
-  background-color: rgb(74, 234, 220);
+  background-color: lightgray;
 }
 
 .container-nosotros-1 {
@@ -261,7 +261,7 @@ color-grey-ligth-1 = #f7f7f7
     }
 
     .composition_photo--p1 {
-        left: 0px;
+        left: 35px;
         bottom: -20px;
     }
 

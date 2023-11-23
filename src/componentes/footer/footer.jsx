@@ -1,15 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Logo from "../../imagenes/NIGIRI-LOGO-removebg-preview.png";
 import "./footer.css";
 
 function Footer() {
   return (
     <div className="body-footer">
       <div className="container-footer-1">
-        <img
-          src="https://tauruscapital.com.ar/wp-content/uploads/2023/05/Home-Footer-Img.webp"
-          alt="logo-empresa"
-        />
+        <img src={Logo} alt="logo-empresa" />
       </div>
 
       <div className="line-footer"></div>
@@ -17,19 +15,19 @@ function Footer() {
       <div className="container-footer-3">
         <div className="container-footer-2">
           <Link className="link-footer" to={"/"}>
-            Inicio
+            Home
           </Link>
 
           <Link className="link-footer" to={"/nosotros"}>
-            Nosotros
+            Us
           </Link>
 
           <Link className="link-footer" to={"/carrera"}>
-            Carrera
+            Career
           </Link>
 
           <Link className="link-footer" to={"/contacto"}>
-            Contactanos
+            Contact
           </Link>
         </div>
 

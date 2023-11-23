@@ -13,12 +13,12 @@ function Carrera() {
     <div className="body-nosotros">
       <div className="container-nosotros-1">
         <div className="card-nosotros-1">
-          <h1>Carrera</h1>
+          <h1>Career</h1>
           <p>
-            En Taurus Capital nos comprometemos con el desarrollo de carrera de
-            quienes buscan desplegar su pasión por el sector financiero. Conocé
-            nuestras oportunidades laborales y sumate a un equipo de
-            profesionales expertos en inverisiones y finanzas.
+            At Nigiri we are committed to the career development of those who
+            seek to display their passion for the real estate sector. Known our
+            investment opportunities and join a team of Professional experts in
+            investments and real estate projects.
           </p>
         </div>
       </div>
@@ -37,43 +37,36 @@ function Carrera() {
 
         <div className="container-nosotros-3" style={{ color: "#333333" }}>
           <p>
-            Nos interesa acompañar el potencial de cada una de las personas que
-            conforman nuestra compañía. Nuestra gente, nuestros clientes y
-            nuestra comunidad son nuestros pilares. De esta forma tenemos como
-            propósito: impulsar el desarrollo financiero, para construir un
-            futuro más equitativo para todos. Nuestra gente hace la diferencia y
-            vos podés ser parte de nuestro equipo.
+            We are interested in accompanying the potential of each of the
+            people who make up our company. Our people, our clients and our
+            community are our pillars. In this way our purpose is: to promote
+            real estate development, to build a more equitable future for all.
+            Our people make a difference and you can be part of our team.
           </p>
         </div>
       </div>
 
       <div className="container-nosotros-2">
         <div className="container-nosotros-3">
-          <h1>Estas son algunas de nuestras cualidades:</h1>
+          <h1>These are some of our qualities:</h1>
+
+          <p>A wide range of real estate solutions for humans and legal.</p>
 
           <p>
-            Una amplia gama de soluciones financieras para personas humanas y
-            jurídicas.
+            First-line local and international advice at the level individual
+            and corporate.
           </p>
 
           <p>
-            Asesoramiento de primera línea local e internacional a nivel
-            individual y corporativo.
+            Research reports with information on the situation and trends From
+            the market.
           </p>
 
-          <p>
-            Informes de research con información sobre coyuntura y tendencias
-            del mercado.
-          </p>
+          <p>Just in time market opportunities.</p>
 
-          <p>Oportunidades de mercado just in time.</p>
+          <p>The most competitive commissions on the market.</p>
 
-          <p>Las comisiones más competitivas del mercado.</p>
-
-          <p>
-            Capacitación recurrente sobre nuevos productos, temas impositivos y
-            normativos.
-          </p>
+          <p>Recurring training on new products, tax issues and normative.</p>
         </div>
 
         <div className="container-nosotros-3">
@@ -89,13 +82,12 @@ function Carrera() {
         style={{ backgroundColor: "rgb(74, 234, 220)" }}
       >
         <div className="container-nosotros-3" style={{ color: "#333333" }}>
-          <h1>Comunicate con nosotros</h1>
+          <h1>Contact us</h1>
 
           <p>
-            En Taurus Capital ofrecemos servicios de calidad y satisfacemos las
-            necesidades de nuestros clientes. No dude en ponerse en contacto con
-            nosotros a través de nuestro formulario de contacto. Estamos a su
-            disposición para ofrecerle nuestra experiencia y conocimientos.
+            At Nigiri we offer quality services and satisfy the needs of our
+            clients. Feel free to contact us through our contact form. We are at
+            your willingness to offer you our experience and knowledge.
           </p>
 
           <button
@@ -103,7 +95,7 @@ function Carrera() {
             onClick={onClickContacto}
             style={{ backgroundColor: "#333333", color: "#f2f2f2" }}
           >
-            Contactanos
+            Contact us
           </button>
         </div>
       </div>
