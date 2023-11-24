@@ -75,7 +75,8 @@ function Contacto() {
                 <div className="contact-text">
                   <h3 className="contact-h3">Address</h3>
                   <p className="contact-p-2">
-                    Calle Siempre Viva 292 PB H - San Isidro
+                    16192 Coastal Highway, Lewes, Delaware 19958, County
+                    of Sussex, USA
                   </p>
                 </div>
               </div>
@@ -86,7 +87,7 @@ function Contacto() {
                 </div>
                 <div className="contact-text">
                   <h3 className="contact-h3">Phone</h3>
-                  <p className="contact-p-2">115-596-7462</p>
+                  <p className="contact-p-2">1(305)331-1196</p>
                 </div>
               </div>
 
@@ -96,7 +97,7 @@ function Contacto() {
                 </div>
                 <div className="contact-text">
                   <h3 className="contact-h3">Mail</h3>
-                  <p className="contact-p-2">administracion@gmail.com</p>
+                  <p className="contact-p-2">contact@realtynigiri.com</p>
                 </div>
               </div>
             </div>

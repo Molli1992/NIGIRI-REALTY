@@ -54,7 +54,7 @@ function Inicio() {
       <header className="header">
         <div className="text-box">
           <h1 className="heading-primary">
-            <span className="heading-primary-main">Nigiri Realt</span>
+            <span className="heading-primary-main">Nigiri Realty</span>
             <span className="heading-primary-sub">
               Experts in the real estate market
             </span>
