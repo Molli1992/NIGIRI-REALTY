@@ -165,8 +165,7 @@
 }
 
 .container-inicio-4 img {
-  width: 100%;
-  height: 500px;
+  width: 70%;
 }
 
 /* --------------------------------- Container-inicio-5 ------------------------------------------------------*/
@@ -321,16 +320,10 @@
   }
 
   .container-inicio-4 img {
-    height: 300px;
+    width: 100%;
   }
 
   .container-inicio-4 button {
     width: 100%;
-  }
-}
-
-@media (max-width: 450px) {
-  .container-inicio-4 img {
-    height: 200px;
   }
 }

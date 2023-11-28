@@ -164,10 +164,12 @@ function Inicio() {
           real estate solutions for individuals, companies and institutions.
         </p>
 
-        <button onClick={onClickNosotros}>See More</button>
+        <div>
+          <button onClick={onClickNosotros}>See More</button>
+        </div>  
 
         <img
-          src="https://tauruscapital.com.ar/wp-content/uploads/2023/05/Home-Nosotros-Img.webp"
+          src="https://www.shutterstock.com/image-photo/real-estate-agents-bid-homes-600nw-2167777159.jpg"
           alt="Error en la carga de la imagen"
         />
       </div>
