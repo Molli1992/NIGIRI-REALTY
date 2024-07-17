@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import "./inicio.css";
 import Contacto from "../contacto/contacto";
 import Swal from "sweetalert2";
+import ImagesInvestment from "../../imagenes/Investment.jpg";
 
 function Inicio() {
   const [stateScroll, setStateScroll] = useState(true);
@@ -128,10 +129,7 @@ function Inicio() {
         </div>
 
         <div className="container-inicio-3">
-          <img
-            src="https://paytolet.com/storage/news/074-property-developers-in-nigeria.jpg"
-            alt="Error en la carga de la imagen"
-          />
+          <img src={ImagesInvestment} alt="Error en la carga de la imagen" />
         </div>
       </div>
 
@@ -166,7 +164,7 @@ function Inicio() {
 
         <div>
           <button onClick={onClickNosotros}>See More</button>
-        </div>  
+        </div>
 
         <img
           src="https://www.shutterstock.com/image-photo/real-estate-agents-bid-homes-600nw-2167777159.jpg"
