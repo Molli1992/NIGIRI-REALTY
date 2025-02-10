@@ -33,15 +33,15 @@ function Contacto() {
       state.mensaje === ""
     ) {
       Swal.fire({
-        title: "Error!",
-        text: "Completar todos los campos",
-        icon: "error",
+        title: "Info!",
+        text: "Complete all fields!",
+        icon: "info",
         confirmButtonText: "Ok",
       });
     } else {
       Swal.fire({
         title: "Successce!",
-        text: "Mensaje enviado correctamente",
+        text: "Message sent successfully!",
         icon: "success",
         confirmButtonText: "Ok",
       }).then(() => {

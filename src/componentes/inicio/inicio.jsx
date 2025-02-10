@@ -32,15 +32,15 @@ function Inicio() {
   const onSubmit = () => {
     if (state.email === "") {
       Swal.fire({
-        title: "Error!",
-        text: "Completar todos los campos",
-        icon: "error",
+        title: "Info!",
+        text: "Complete all fields!",
+        icon: "info",
         confirmButtonText: "Ok",
       });
     } else {
       Swal.fire({
         title: "Successce!",
-        text: "Te has suscripto correctamente",
+        text: "Message sent successfully!",
         icon: "success",
         confirmButtonText: "Ok",
       }).then(() => {
