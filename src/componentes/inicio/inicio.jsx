@@ -3,7 +3,11 @@ import { Link, useNavigate } from "react-router-dom";
 import "./inicio.css";
 import Contacto from "../contacto/contacto";
 import Swal from "sweetalert2";
-import ImagesInvestment from "../../imagenes/Investment.jpg";
+import HomeImg1 from "../../imagenes/home/home-img-1.jpg";
+import HomeImg2 from "../../imagenes/home/home-img-2.webp";
+import HomeImg3 from "../../imagenes/home/home-img-3.jpg";
+import HomeImg4 from "../../imagenes/home/home-img-4.jpg";
+import HomeImg5 from "../../imagenes/home/home-img-5.webp";
 
 function Inicio() {
   const [stateScroll, setStateScroll] = useState(true);
@@ -90,19 +94,13 @@ function Inicio() {
         </div>
 
         <div className="container-inicio-3">
-          <img
-            src="https://www.dummies.com/wp-content/uploads/international-real-estate-valuation.jpg"
-            alt="Error en la carga de la imagen"
-          />
+          <img src={HomeImg1} alt="Error en la carga de la imagen" />
         </div>
       </div>
 
       <div className="contaner-inicio-2">
         <div className="container-inicio-3">
-          <img
-            src="https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/Sales_Blog/real-estate-business-compressor.jpg?width=595&height=400&name=real-estate-business-compressor.jpg"
-            alt="Error en la carga de la imagen"
-          />
+          <img src={HomeImg2} alt="Error en la carga de la imagen" />
         </div>
 
         <div className="container-inicio-3">
@@ -129,16 +127,13 @@ function Inicio() {
         </div>
 
         <div className="container-inicio-3">
-          <img src={ImagesInvestment} alt="Error en la carga de la imagen" />
+          <img src={HomeImg3} alt="Error en la carga de la imagen" />
         </div>
       </div>
 
       <div className="contaner-inicio-2">
         <div className="container-inicio-3">
-          <img
-            src="https://learn.roofstock.com/hs-fs/hubfs/iStock-1186618062%20(1).jpg?width=2121&name=iStock-1186618062%20(1).jpg"
-            alt="Error en la carga de la imagen"
-          />
+          <img src={HomeImg4} alt="Error en la carga de la imagen" />
         </div>
 
         <div className="container-inicio-3">
@@ -167,7 +162,7 @@ function Inicio() {
         </div>
 
         <img
-          src="https://www.shutterstock.com/image-photo/real-estate-agents-bid-homes-600nw-2167777159.jpg"
+          src={HomeImg5}
           alt="Error en la carga de la imagen"
         />
       </div>

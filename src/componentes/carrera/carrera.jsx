@@ -1,6 +1,7 @@
-import React from "react";
 import "./carrera.css";
 import { useNavigate } from "react-router-dom";
+import CarreraImg1 from "../../imagenes/carrer/carrera-img-1.webp";
+import CarreraImg2 from "../../imagenes/carrer/carrera-img-2.webp";
 
 function Carrera() {
   window.scroll(0, 0);
@@ -29,7 +30,7 @@ function Carrera() {
       >
         <div className="container-nosotros-3">
           <img
-            src="https://tauruscapital.com.ar/wp-content/uploads/2023/05/Carrera-Img.webp"
+            src={CarreraImg1}
             alt="Error en la carga de la imagen"
             style={{ height: "350px" }}
           />
@@ -70,10 +71,7 @@ function Carrera() {
         </div>
 
         <div className="container-nosotros-3">
-          <img
-            src="https://tauruscapital.com.ar/wp-content/uploads/2023/05/Carrera-Cualidades-Img.webp"
-            alt="Error en la carga de la imagen"
-          />
+          <img src={CarreraImg2} alt="Error en la carga de la imagen" />
         </div>
       </div>
 
